@@ -3,7 +3,7 @@ from os import path
 from setuptools import setup
 
 """
-@author: tezmen, forked and edited by ravensoracle
+@author: tezmen, ravensoracle  forked and edited by Derad6709
 @contact: https://t.me/tezmen
 @license Apache License, Version 2.0, see LICENSE file
 Copyright (C) 2019
@@ -27,7 +27,7 @@ def requirements():
 
 
 setup(
-	name='smshuborg',
+	name='pythonsms',
 	version='1.2.6',
 	long_description=long_description(),
 	long_description_content_type='text/markdown',
@@ -35,10 +35,10 @@ setup(
 	author='tezmen and ravensoracle',
 	license='Apache License, Version 2.0, see LICENSE file',
 	keywords='sms, recive, smshub.org, autoreg',
-	author_email='tezmenpro@gmail.com',
-	url='https://github.com/ravensoracle/python-smshub-org/',
-	download_url='https://github.com/ravensoracle/python-smshub-org/archive/master.zip',
-	packages=['smshuborg'],
+	author_email='lebedevvalerij@outlook.com',
+	url='https://github.com/Derad6709/pythonsms/',
+	download_url='https://github.com/Derad6709/pythonsms/archive/master.zip',
+	packages=['pythonsms'],
 	install_requires=requirements(),
 	classifiers=[
 		'License :: OSI Approved :: Apache Software License',
